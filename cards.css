@@ -1,0 +1,41 @@
+body {
+    background: url("./pokemon-bg.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board {
+    height: 532px;
+    width: 475px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border: 10px solid lightgrey;
+    justify-content: space-around; /* Added to evenly space cards */
+}
+
+.card {
+    height: 128px;
+    width: 90px;
+    margin: 2.5px;
+    border-radius: 10px; /* Added to give cards a rounded corner */
+    cursor: pointer; /* Added to change cursor on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Added to create a hover effect */
+}
+
+#timer {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#errors {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
