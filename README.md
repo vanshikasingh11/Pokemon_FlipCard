@@ -20,4 +20,6 @@ The objective is to match pairs of identical Pokemon cards.
 When a pair is matched, the cards remain flipped.
 If the cards do not match, they are flipped back over.
 The game continues until all pairs are matched.
-![Uploading Screenshot 2024-08-14 225720.png…]()
+![Screenshot 2024-08-14 225720](https://github.com/user-attachments/assets/6e28f7a9-aeae-4759-8085-6cad594dd70c)
+
+
